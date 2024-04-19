@@ -2,6 +2,12 @@
 
 Welcome to the React.js(vite) Blogpost project with a backend powered by XAMPP! This project combines a React.js(vite) frontend for modern and efficient development with a PHP backend running on XAMPP for data storage and API requests in a blog post application.
 
+# Demo Url 
+```bash
+https://blogweb-ten.vercel.app/
+```
+
+
 ## Features
 
 - **React.js(vite) Frontend**: Utilizes React.js(vite) for rapid frontend development with modern JavaScript features and an optimized build process.
