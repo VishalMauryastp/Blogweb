@@ -28,6 +28,13 @@ https://github.com/VishalMauryastp/Blogweb.git
 
 3. Import the database schema provided in `Blogweb/server/sql/simple_web_app.sql` into your MySQL server.
 
+    3.1. Update the .env file in the frontend/ directory and set the VITE_API_BASE_URL to your PHP backend URL. For example:
+
+```bash
+VITE_API_BASE_URL = http://localhost/mysql/Blogweb/server/api
+
+```
+
 4. Navigate to the project directory:
 
 ```bash
