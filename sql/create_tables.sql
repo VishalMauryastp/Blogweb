@@ -1,0 +1,9 @@
+CREATE TABLE `post_votes`
+(
+    `id`         INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `post_id`    INT(11) NOT NULL,
+    `user_ip`    VARCHAR(50) NOT NULL,
+    `vote_type`  ENUM('like', 'dislike') NOT NULL,
+    `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
